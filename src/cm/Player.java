@@ -38,7 +38,10 @@ public class Player {
 
     public void hit() {
         if (hp > 0) hp--;
-        else JOptionPane.showMessageDialog(null, "You Lose!!!");
+        else {
+            JOptionPane.showMessageDialog(null, "Press OK to be continue with 5 HP ");
+            hp =5;
+        }
     }
 
     public void tick() {

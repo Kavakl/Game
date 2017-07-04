@@ -21,7 +21,7 @@ public class Enemy {
         r = 7;
         x = Math.random() * Panel.width / 2 + Panel.height / 4;
         y = -r;
-        double L = Math.toRadians(Math.random() * 360);
+        double L = Math.toRadians(Math.random() * 140+20);
         radian = Math.toRadians(L);
         dx = Math.sin(radian) * v;
         dy = Math.cos(radian) * v;
